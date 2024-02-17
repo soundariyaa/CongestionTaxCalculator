@@ -29,11 +29,13 @@ namespace TaxCalculator.Helper
                  City city = JsonSerializer.Deserialize<City>(json);
 
                //  City city = JsonSerializer.Deserialize<City>(File.ReadAllText("City.json"));
-           cities.Add(city);
             
-          
-           dicCity.Add(city.CityName,city);  
-             }               
+           if (!dicCity.ContainsKey(city.CityName))
+            {  
+            dicCity.Add(city.CityName,city);
+            }
+             
+            }               
             
         //}
         // catch (Exception ex)
