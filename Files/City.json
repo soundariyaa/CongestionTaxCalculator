@@ -1,0 +1,180 @@
+{
+    "CityName": "Gothenburg",
+    "TaxRates": [
+        {
+            "TimeFrom": {
+                "Hour": 6,
+                "Minutes": 0
+            },
+            "TimeTo": {
+                "Hour": 6,
+                "Minutes": 29
+            },
+            "Amount": 8
+        },
+        {
+            "TimeFrom": {
+                "Hour": 6,
+                "Minutes": 30
+            },
+            "TimeTo": {
+                "Hour": 6,
+                "Minutes": 59
+            },
+            "Amount": 13
+        },
+        {
+            "TimeFrom": {
+                "Hour": 7,
+                "Minutes": 0
+            },
+            "TimeTo": {
+                "Hour": 7,
+                "Minutes": 59
+            },
+            "Amount": 18
+        },
+        {
+            "TimeFrom": {
+                "Hour": 8,
+                "Minutes": 0
+            },
+            "TimeTo": {
+                "Hour": 8,
+                "Minutes": 29
+            },
+            "Amount": 13
+        },
+        {
+            "TimeFrom": {
+                "Hour": 8,
+                "Minutes": 30
+            },
+            "TimeTo": {
+                "Hour": 14,
+                "Minutes": 59
+            },
+            "Amount": 8
+        },
+        {
+            "TimeFrom": {
+                "Hour": 15,
+                "Minutes": 0
+            },
+            "TimeTo": {
+                "Hour": 15,
+                "Minutes": 29
+            },
+            "Amount": 13
+        },
+        {
+            "TimeFrom": {
+                "Hour": 15,
+                "Minutes": 30
+            },
+            "TimeTo": {
+                "Hour": 16,
+                "Minutes": 59
+            },
+            "Amount": 18
+        },
+        {
+            "TimeFrom": {
+                "Hour": 17,
+                "Minutes": 0
+            },
+            "TimeTo": {
+                "Hour": 17,
+                "Minutes": 59
+            },
+            "Amount": 13
+        },
+        {
+            "TimeFrom": {
+                "Hour": 18,
+                "Minutes": 0
+            },
+            "TimeTo": {
+                "Hour": 18,
+                "Minutes": 29
+            },
+            "Amount": 8
+        },
+        {
+            "TimeFrom": {
+                "Hour": 18,
+                "Minutes": 30
+            },
+            "TimeTo": {
+                "Hour": 5,
+                "Minutes": 59
+            },
+            "Amount": 0
+        }
+    ],
+    "TollFreeDates": [
+        {
+            "Month": 1,
+            "Days": [
+                1
+            ]
+        },
+        {
+            "Month": 3,
+            "Days": [
+                28,
+                29
+            ]
+        },
+        {
+            "Month": 4,
+            "Days": [
+                1,
+                30
+            ]
+        },
+        {
+            "Month": 5,
+            "Days": [
+                1,
+                8,
+                9
+            ]
+        },
+        {
+            "Month": 6,
+            "Days": [
+                5,
+                6,
+                21
+            ]
+        },
+        {
+            "Month": 7,
+            "Days": []
+        },
+        {
+            "Month": 11,
+            "Days": [
+                1
+            ]
+        },
+        {
+            "Month": 12,
+            "Days": [
+                24,
+                25,
+                26,
+                31
+            ]
+        }
+    ],
+    "TollFreeVehicles": [
+        "Motorcycle",
+        "Tractor",
+        "Emergency",
+        "Diplomat",
+        "Foreign",
+        "Military"
+    ]
+}
