@@ -92,7 +92,7 @@ namespace TaxCalculator.Handler.Implementations
                 perDayTotalFee = perDayTotalFee - tempFee + nextFee;
                 tempFee = nextFee;
                 CalculatePerDayTax(date, perDayTotalFee, perDayTax);
-                //intervalStart = date;
+               // intervalStart = date;
             }
         }
         else
@@ -103,9 +103,9 @@ namespace TaxCalculator.Handler.Implementations
             tempFee = nextFee;
             perDayTotalFee = perDayTotalFee + nextFee;
             CalculatePerDayTax(date, perDayTotalFee, perDayTax);
-            //intervalStart = date;
+            intervalStart = date;
         }
-        intervalStart = date;
+       // intervalStart = date;
     }
 
     private int GetTaxIfDifferentDate(DateTime intervalStart, int perDayTotalFee, DateTime date)
@@ -128,6 +128,6 @@ namespace TaxCalculator.Handler.Implementations
         perDayTax[currentDate.Date] = total;
 
         return total;
-    }
+   }
     }
 }
